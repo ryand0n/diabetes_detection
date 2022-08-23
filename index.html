@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Diabetes Detection</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/ai_camp_logo.png" alt="..." height='200'/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Pre-Processing/EDA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#visualizations">Visualizations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
+                         <li class="nav-item"><a class="nav-link"href="#conclusion">Results/Conclusion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">The Electric Pythons</div>
+                <div class="masthead-heading text-uppercase">Diabetes Detection!</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#introduction">Explore!</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="introduction">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Pre-Processing/EDA</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-question fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Why This Product?</h4>
+                        <p class="text-muted">We are attempting to solve some financial issues involving healthcare. Healthcare in America can be extremely expensive. Per year it costs a single person around $12,500.00 per year in health alone. Our model will allow an individual to check whether they are positive or negative for diabetes before they decide to spend a good amount of their money to have a doctor confirm or deny their result. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-broom fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Data Cleansing</h4>
+                        <p class="text-muted">Cleaning up our data allows us to make sure our Machine Learning Model is the most accurate it can be. We can do this by visualizing our data in different ways to find different correlations between features/symptoms. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-chart-pie fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Minimum Viable Product</h4>
+                        <p class="text-muted">Our project MVP would be a website with a form that a user would fill out. The user would input their gender and possible diabetic symptoms. The results would be an output showing if they are positive or negative for diabetes. Included throughout our website are several visuals including a Heat map, Histogram, Pie Chart, and Bar Chart to display the data we have collected for our Machine Learning Model.  
+</p>
+                    </div>
+                  
+   
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="visualizations">
+          <style>
+            h6{
+              font-weight:bold;
+              color: mediumturquoise; 
+              font-size: 20px; 
+            }
+          
+          
+          </style>
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="section-heading text-uppercase">Visualizations</h1>
+                    <h2 class="section-subheading text-muted">Graphs</h2>
+                  <br>
+                </div>
+                
+                    <div>
+                        <!-- Histogram Matrix-->
+                        <div class="portfolio-item">
+
+                                <div class="portfolio-hover">
+
+                                </div>
+                              <div class="portfolio-caption-heading">
+                                       <div class="text-center">
+                                <h5>
+                                            Histogram Grid of Factors in Diabetes
+                                 
+                                </h5>
+                              
+                          
+                          </div>
+<!--                           <iframe src="assets/img/team/histograms.html" height = "500" width = "500" frameBorder = 0></iframe> -->
+                                <iframe src="assets/img/histograms.html" height = '500' width = '100%' frameBorder = 0></iframe>
+                          
+                            </a>
+                            <div class="portfolio-caption">
+                                     <div class="text-center">
+                                <p>
+
+                   
+                                  This Histogram shows how many of each feature are included in either positive or negative class. The two different classes are shown as  “yes” or “no”.  </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Scatterplot Matrix-->
+                        <div class="portfolio-item">
+                            
+                              
+<hr size='1'/>
+  <div class="portfolio-hover">
+           <div class="text-center">
+                            
+                                <h5> 
+                            Bar Chart Showing Correlation
+                            </h5>
+                          </div>
+                          <iframe src="assets/img/bar.html" height = '500' width = '100%' frameBorder = 0></iframe>
+                            </a>
+                            <div class="portfolio-caption">
+                              <div class="portfolio-caption-heading">
+                                       <div class="text-center">
+                                <p>
+                                  This Bar Chart shows the correlation of each symptom to the class. A high correlation will help lead to accurate results in our machine learning but if the correlation is low it could affect the results to be false. 
+                                </p>
+                              </div>
+                      
+                                <div class="portfolio-caption-subheading text-muted" width="200" height="200"></div>
+                              <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Heatmap-->
+                        
+                         <div class="portfolio-item">
+                                <div class="portfolio-hover">
+   
+                                </div>
+      
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">
+                                         <div class="text-center">
+                                  
+                                  <h5>
+                                    Heatmap Correlation of Factors in Diabetes
+                                  </h5>
+                              
+                              </div>
+                              <iframe src = "assets/img/heatmap.html" height = '500' width = '100%' frameBorder = 0>
+        
+      </iframe> 
+                              <div class="portfolio-caption">
+                               <div class="portfolio-caption-heading">
+                                        <div class="text-center">
+                             <p>
+                               
+                                 
+                                  Another graph we used to show our data was a heatmap. This heatmap shows how each feature affects the other. The most important one is class. The class is the outcome of our machine learning. It can either show positive or negative for diabetes. The class is compared with the 16 other features to see which symptoms we want to use in our Machine Learning Models 
+                               
+                                      <div class="text-center">
+                               <h5>
+                                    Pie Chart Correlation of Factors in Diabetes
+                                  </h5>
+                              
+                              </div>
+                              <iframe src = "assets/img/PIE2.html" height = '500' width = '100%' frameBorder = 0>
+        
+      </iframe> 
+                                                 <div class="text-center">
+                                
+The following Pie Charts represent the correlation between the 9 different symptoms including Gender, and diabetes. 
+The red section (1) is the percentage of people that have diabetes with a particular symptom.
+The dark blue section (0) is the percentage of people that don’t have diabetes, but do have a symptom. 
+
+                                
+                                
+                              <div class="portfolio-caption">
+                               <div class="portfolio-caption-heading">
+                                        <div class="text-center">
+                             <p>
+                                 </p>
+                                 <br>
+                             </div>
+                              </div>
+                      </div>
+                                <div class="portfolio-caption-subheading text-muted">
+                            </div>
+                        </div>
+                    </div>
+                                 <section class="page-section bg-light" id="models">
+                    <div>
+                        <div class="container">
+                      <div class="text-center">
+                    <h1 class="section-heading text-uppercase">Models</h1>
+                    
+                    
+                <div class="text-center">
+                    <h2 class="section-subheading text-muted">Machine Learning Confusion Matrices</h2>
+                  <br>
+                </div>
+                        <!-- -->
+                        <div class="portfolio-item">
+                         
+                                <div class="portfolio-hover">
+       
+                                </div>
+                            
+                            </a>
+                            <div class="portfolio-caption">
+                                <h5>Decision Trees</h5>
+                                <p>Decision Trees are a non-parametric supervised learning method used for classification and regression. The model can predict the value of a target variable by learning simple rules. The more data, the more complex the decision rules and the fitter the model.
+</p>
+                              <img src = "assets/img/DT2.JPG" height = 500 width = 650>
+                              <br>
+                              <br>
+              <p>
+               The best parameters for Decision Trees were: <br> <br>
+Criterion :  gini 
+      <br>          
+Splitter :  best
+                <br> <br>
+Criterion is The function to measure the quality of a split. Splitter is the strategy used to choose the split at each node.
+
+                              </p>
+                              <h5>
+                                Decision Tree Results: 
+                              </h5>
+                              <p>
+ Recall score of approximately 1.0<br>Accuracy of 0.9649122807017544 <br> MSE of 0.03076923076923077
+                              
+                              
+                               </p>
+                              <iframe src = "assets/img/DecisionTrees.html" height = 500 width = 650>
+                              </iframe>
+</div>
+
+                                
+  <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0"></div>
+  <!-- Random Forest Classifier-->
+                        <div class="portfolio-item">
+        
+                                <div class="portfolio-hover">
+
+                                </div>
+                                <br>
+                          
+
+                            </a>
+                            <div class="portfolio-caption">
+                                <h5>Random Forest Classifier</h5>
+                                <p>Our second best model, Random forest uses forest classifiers that have to be fitted with two arrays: a sparse or dense array X of shape, and an array Y of shape.
+
+</p>
+                              <img src = "https://upload.wikimedia.org/wikipedia/commons/7/76/Random_forest_diagram_complete.png">
+                              <br>
+                              <a href = "https://commons.wikimedia.org/wiki/File:Random_forest_diagram_complete.png"></a>
+                               
+                                
+max_features : sqrt
+                                <br>
+n_estimators : 10
+                                <br> <br>
+
+Max Features is The number of features to consider when looking for the best split. n_estimators  is The number of trees in the forest.
+
+                              </p>
+                              <h5>
+                   Random Forest Results: 
+                              </h5>
+                              <p>
+                                                         Accuracy →  0.9615384615384616
+<br>
+MSE → 0.038461538461538464
+<br>
+Recall → 0.9625
+
+
+                              </p>
+                              <iframe src = "assets/img/RandomForest.html" height = 500 width = 500>
+                              </iframe>
+</div>
+                        </div>                      
+  <!-- K Nearest Neighbor-->
+                        <div class="portfolio-item">
+                          
+                                <div class="portfolio-hover">
+       
+                                </div>
+                          <br>
+                          
+           
+                            </a>
+                            <div class="portfolio-caption">
+                                <h5>K Nearest Neighbor</h5>
+                                <p>Our third best model, KNN is an algorithm that can be used to solve both classification and regression problems. It can calculate the distance between the given point and the other points. It then sorts all the points by distance in increasing order. For classification, which is what our project is using, the point is classified by a vote of its neighbors and then assigned to the class most common among its k nearest neighbors. The K value controls balance between the values from over fitting to under fitting.
+<p>
+                              <img src = "http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1531424125/KNN_final_a1mrv9.png">
+                              <br>
+                              <a href = "https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn">Source: Datacamp Scikit Learn</a>
+
+  <p>
+                 The parameters used for KNN were: <br>
+    <br>
+'n_neighbors':[3,5,7] <br>
+    'weights':('uniform', 'distance') <br>
+    'algorithm':('auto', 'ball_tree')
+<br>
+    <br>
+The best parameters for KNN were: <br>
+    <br>
+ 'algorithm': 'auto'
+    <br>
+    'n_neighbors': 3
+    <br>
+    'weights': 'distance'
+
+<h5>
+  KNN Results:
+                              </h5>                             
+                              
+                              </p>
+                           <!--  --><!--  --><strong></strong><em></em><pre></pre><div style='text-align:justify'></div><span style='color:#ff5722'></span><span style='color:#3f51b5'></span>   <p>
+                                KNN 
+                                Accuracy →  0.9153846153846154
+
+<br>
+MSE → 0.05384615384615385
+
+<br>
+Recall → 0.9620253164556962
+
+                              </p>
+                             <iframe src = "assets/img/KNN.html" height = 500 width = 500>
+                              </iframe>
+                                
+                              
+                        <div class="portfolio-caption">
+                               <div class="portfolio-caption-heading">
+                                        <div class="text-center">
+                             <p>
+                                 </p>
+                                 <br>
+                             </div>
+                              </div>
+                      </div>
+                                <div class="portfolio-caption-subheading text-muted">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                      <section class="page-section bg-light" id="conclusion">
+                        <div class="container">
+                      <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Conclusion</h2>
+                              
+                              </p>
+                              <img src="assets/img/TB6.JPG" height = 250 width = 700>
+              </div>
+                      
+       <div class = "text-center">
+                    
+                      
+                    <div class = "text-center">
+                    <p class = "text-muted">
+                     <p>
+                     
+                      </p> Making this model has come with many ups and downs, but as a team we have been able to persevere and make our product to the best of our ability. While creating the  product at hand, we have encountered many challenges, but together, we have surpassed all our expectations and created a diabetes detector with as much accuracy as possible. During the process of making the product, we have gained much knowledge about not only the process of creating a product to put on a website, but also about symptoms of diabetes. As a group, we have put so much effort into making the product as accurate as possible, so it can help people save money and time when visiting doctors.
+                   
+                     </div>
+                </div>
+
+                         
+
+                    
+
+                    </div>
+                  
+   
+               
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Electric Pythons</h2>
+                    <h3 class="section-subheading text-muted">AI Camp Members</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/download.jpeg" alt="..." />
+                            <h4>Zachary Evan Shiff </h4>
+                            <p class="text-muted">Data Scientist</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/image2 (1) (2) (1).jpeg" alt="..." />
+                            <h4>Naomi Kimora Castang </h4>
+                            <p class="text-muted">Data Scientist</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/large_user_7015821_752.jpg" alt="..." />
+                            <h4>Sophia Lee</h4>
+                            <p class="text-muted">Data Scientist</p>
+                            
+                        </div>
+                    </div>
+                   <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/C++.JPG" alt="..." />
+                          <div class="text-center">
+                            <h4>Joshua Jesiah </h4>
+                            <div class="text-center">
+                            <p class="text-muted">AI Architect</p>
+                            
+                        </div>
+                    </div>
+          
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">"These days elementary school students learn English and coding at school. Tommorow's elementary school student will learn AI. AI comes before English and coding. This is because Artificial Intelligence is the language and tool of the future." - Enamul Haque</p></div>
+                </div>
+
+        
